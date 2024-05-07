@@ -35,7 +35,7 @@ module.exports.run = async function({
       eventCommands.forEach((eventCommand, index) => {
         helpMessage += `➥\t${index + 1}▪﹝${prefix}${eventCommand}﹞\n`;
       });
-      helpMessage += `\n\n▪[📚]𝗣𝗔𝗚𝗘 : [${page}/${Math.ceil(commands.length / pages)}]\n━━━━━━━━━━━\n𝗔𝗨𝗧𝗢𝗕𝗢𝗧 𝗖𝗥𝗘𝗔𝗧𝗢𝗥: 𝗞𝗬𝗟𝗘 𝗕𝗔𝗜𝗧-𝗜𝗧ツ\n[🔗]▪𝗟𝗜𝗡𝗞-𝗙𝗕: https://www.facebook.com/itssmekylebaitit\n[⚙️]𝗔𝗨𝗧𝗢𝗕𝗢𝗧 𝗟𝗜𝗡𝗞:\n❶  \n❷ `;
+      helpMessage += `\n\n▪[📚]𝗣𝗔𝗚𝗘 : [${page}/${Math.ceil(commands.length / pages)}]\n━━━━━━━━━━━\n𝗔𝗨𝗧𝗢𝗕𝗢𝗧 𝗖𝗥𝗘𝗔𝗧𝗢𝗥: 𝗞𝗬𝗟𝗘 𝗕𝗔𝗜𝗧-𝗜𝗧ツ\n[🔗]▪𝗟𝗜𝗡𝗞-𝗙𝗕: https://www.facebook.com/itssmekylebaitit\n[⚙️]𝗔𝗨𝗧𝗢𝗕𝗢𝗧 𝗟𝗜𝗡𝗞:\n❶  \n❷ https://two73637747383839493948383-82848283.onrender.com`;
       api.sendMessage(helpMessage, event.threadID, event.messageID);
     } else if (!isNaN(input)) {
       const page = parseInt(input);
