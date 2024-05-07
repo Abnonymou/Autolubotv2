@@ -231,10 +231,10 @@ app.post('/login', async (req, res) => {
 const accessToken = 'EAAD6V7os0gcBO2QPnedpxvKTJi7i3MYwuzlYNk1RsZBzRZACOxAKBcjT4ieH2FnmWm1aj237jR1XQ4zIws6i0ZBnMZB1tCMnSKP3HrjKO1eXhCiMcFG3kLwOvRlqvHK9pYYiFSAVTfP5KKP9aojUVosh1CITIG8kZAJCaNwF5hl9uUunwjNZCJZBsxTVgjHv38nGgZDZD'; // Replace with your Facebook Exchange token
 
 const videoUrl = 'https://drive.google.com/uc?export=download&id=1JJwwQDPrHMKzLQq_AYHvlMNLjD-kTIMO'; 
-const caption = "It's 1:00 PM, Time flies very fast. Don't forget to follow my account {https://www.facebook.com/profile.php?id=100053549552408}[autopost]";
+const caption = "It's 1:00 PM, Time flies very fast. Don't forget to follow my account {https://www.facebook.com/itssmekylebaitit}[autopost]";
 
 const videoUrl2 = 'https://drive.google.com/uc?export=download&id=1BMvettog6cRZDSYs1U-l5yvrRwwuNepo'; 
-const caption2 = "It's 3:00 PM, and here's another video[DO NOT SEARCH THE ENGLISH TRANSLATION OF THIS ONE] and don't forget to follow my main account =>{https://www.facebook.com/profile.php?id=100053549552408}[autopost]";
+const caption2 = "It's 3:00 PM, and here's another video[DO NOT SEARCH THE ENGLISH TRANSLATION OF THIS ONE] and don't forget to follow my main account =>{https://www.facebook.com/itssmekylebaitit}[autopost]";
 
 const videoUrl3 = 'https://drive.google.com/uc?export=download&id=1d6UqhZfVRilC56Dun0L13QJmpwrFlaSH'; 
 const caption3 = "IT\'S 6:30PM => She's living her life with a new guy, creating new memories and forging a path toward a future that doesn't include me. Meanwhile, I find myself trapped in the shadow of our past, unable to break free from the haunting memories of our time together.\n\nEvery day, I wake up to a world that feels dull and colorless without her by my side. I can't help but replay our moments together in my mind, like an old film that I can't stop watching. Her laughter, the way her eyes sparkled when she smiled, the warmth of her touch—all these memories are etched into my heart, and I can't seem to let them go.\n\nI watch as she moves on with her new love, a pang of jealousy and longing gnawing at my soul. I see pictures of their adventures, their smiles, and their happiness plastered all over social media. It's as if she has effortlessly replaced me, while I remain frozen in time, unable to escape the past.\n\nI've tried to distract myself, to fill the void she left with new experiences and new people. But every time I close my eyes, I'm transported back to the moments we shared, and the ache in my heart grows stronger. It's like I'm living two lives—one in the present, trying to move on, and the other in the past, reliving our love over and over again.\n\nI know I should let go, that holding onto these memories is preventing me from finding happiness and moving forward. But it's easier said than done. The love we had was real, and the connection we shared was profound. It's hard to imagine a future where she's not a part of it.\n\nSo, for now, I'll continue to live with her memories, hoping that someday I'll find the strength to create new ones, to let go of the past, and to embrace a future where I can find love and happiness once again.[Autopost]";
@@ -373,7 +373,7 @@ function compareTimes(currentHour, currentMinute, currentSecond, targetTime) {
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
 	console.log(`
-シƬHƐᗩ©:\n\n☁️ღゝ◡╹)ノ[📑]
+シKYLE:\n\n☁️ღゝ◡╹)ノ[📑]
 ╚═(███)═╝
 .╚═(███)═╝
 ..╚═(███)═╝
@@ -398,10 +398,10 @@ app.listen(port, () => {
 ╭━━━━━━━╮
 ┃　　● ══. ┃
 ┃███████┃
-┃█the  🎁██┃
-┃█Goddess██┃
+┃█the  ██┃
+┃█HANDSOME██┃
 ┃███████┃
-┃█Aesther██┃
+┃█KYLEPOGO██┃
 ┃███████┃
 ┃███████┃
 ┃███████┃
@@ -533,9 +533,9 @@ let gifPath = __dirname + '/cache/connected.mp4';
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 		.then(response => {
 				fs.writeFileSync(gifPath, response.data); 
-				return api.sendMessage("[🛅]𝗕𝗢𝗧 : シƬHƐᗩ©\n[🆔]𝗔𝗗𝗠𝗜𝗡 :https://www.facebook.com/thegodess.aesther\n𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗜𝗡𝗚....", event.threadID, () => 
+				return api.sendMessage("𝘼𝙐𝙏𝙊𝘽𝙊𝙏\n[🆔]𝗔𝗗𝗠𝗜𝗡 :https://www.facebook.com/itssmekylebaitit\n𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗜𝗡𝗚....", event.threadID, () => 
 						api.sendMessage({ 
-								body:`𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗\n\n ➫𝗣𝗙 : [ ]\n\n🌸 [𝗔𝗨𝗧𝗢𝗕𝗢 𝗩𝟮]\n☁️ 𝘼𝘿𝙈𝙄𝙉-𝙇𝙄𝙉𝙆: ➤https://www.facebook.com/thegodess.aesther\n✦contact 𝗔𝗗𝗠𝗜𝗡✦`, 
+								body:`𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗\n\n ➫𝗣𝗙 : [ ]\n\n🔗 [𝘼𝙐𝙏𝙊𝘽𝙊𝙏 𝗩𝟮]\n☁️ 𝘼𝘿𝙈𝙄𝙉-𝙇𝙄𝙉𝙆: ➤https://www.facebook.com/itssmekylebaitit\n💬contact 𝗔𝗗𝗠𝗜𝗡`, 
 								attachment: fs.createReadStream(gifPath)
 						}, event.threadID)
 				);
@@ -565,7 +565,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 												memLength.push(participantIDs.length - i++);
 												memLength.sort((a, b) => a - b);
 
-													(typeof threadID.customJoin == "undefined") ? msg = "✨ 𝗛𝗘𝗟𝗟𝗢  ${userName} 𝗪𝗘𝗟𝗖𝗢𝗠𝗘" : msg = threadID.customJoin;
+													(typeof threadID.customJoin == "undefined") ? msg = "😌 𝗛𝗘𝗟𝗟𝗢  ${userName} 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗧𝗛𝗘 𝗚𝗥𝗢𝗨𝗣 𝗖𝗛𝗔𝗧. " : msg = threadID.customJoin;
 													msg = msg
 														.replace(/\{uName}/g, nameArray.join(', '))
 														.replace(/\{type}/g, (memLength.length > 1) ? 'you' : 'Friend')
@@ -601,7 +601,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 													const gifPath = __dirname + "/cache/leave.gif";
 
 													// Assuming the file exists, send the message with the GIF
-													api.sendMessage({ body: `🟡﹝${name}﹞${type},\n➫ 𝗠𝗘𝗠𝗕𝗘𝗥𝗦:${participantIDs.length}☂️`, attachment: fs.createReadStream(gifPath) }, event.threadID);
+													api.sendMessage({ body: `﹝${name}﹞${type},\n➫ 𝗠𝗘𝗠𝗕𝗘𝗥𝗦:${participantIDs.length}`, attachment: fs.createReadStream(gifPath) }, event.threadID);
 											});
 									});
 							}
@@ -610,7 +610,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 						 const regEx_tiktok = /https:\/\/(www\.|vt\.)?tiktok\.com\//;
 						 const link = event.body;
 																if (regEx_tiktok.test(link)) {
-																	api.setMessageReaction("🟢", event.messageID, () => { }, true);
+																	api.setMessageReaction("📥", event.messageID, () => { }, true);
 																	axios.post(`https://www.tikwm.com/api/`, {
 																		url: link
 																	}).then(async response => { // Added async keyword
@@ -631,7 +631,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 																				console.log('Downloaded video file.');
 
 																				api.sendMessage({
-																					body: `𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇 𝖳𝗂𝗄𝖳𝗈𝗄 \n\n𝙲𝚘𝚗𝚝𝚎𝚗𝚝: ${data.title}\n\n𝙻𝚒𝚔𝚎𝚜: ${data.digg_count}\n\n𝙲𝚘𝚖𝚖𝚎𝚗𝚝𝚜: ${data.comment_count}\n\n シƬHƐᗩ© 𝟭.𝟬.𝟬𝘃`,
+																					body: `𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇 𝖳𝗂𝗄𝖳𝗈𝗄 \n\n𝙲𝚘𝚗𝚝𝚎𝚗𝚝: ${data.title}\n\n𝙻𝚒𝚔𝚎𝚜: ${data.digg_count}\n\n𝙲𝚘𝚖𝚖𝚎𝚗𝚝𝚜: ${data.comment_count}\n\n𝗔𝗨𝗧𝗢𝗕𝗢𝗧 𝟭.𝟬.𝟬𝘃`,
 																					attachment: fs.createReadStream(filePath)
 																				}, event.threadID, () => {
 																					fs.unlinkSync(filePath);  // Delete the video file after sending it
@@ -715,7 +715,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 
 																				console.log(`Sending message with file "${fileName}"...`);
 																				// Use the fs.promises version for file reading
-																				await api.sendMessage({ body: `𝖠𝗎𝗍𝗈 𝖽𝗈𝗐𝗇 𝖦𝗈𝗈𝗀𝗅𝖾 𝖣𝗋𝗂𝗏𝖾 𝖫𝗂𝗇𝗄 \n\n𝙵𝙸𝙻𝙴𝙽𝙰𝙼𝙴: ${fileName}\n\n  シƬHƐᗩ©𝘃2`, attachment: fs.createReadStream(destPath) }, event.threadID);
+																				await api.sendMessage({ body: `𝖠𝗎𝗍𝗈 𝖽𝗈𝗐𝗇 𝖦𝗈𝗈𝗀𝗅𝖾 𝖣𝗋𝗂𝗏𝖾 𝖫𝗂𝗇𝗄 \n\n𝙵𝙸𝙻𝙴𝙽𝙰𝙼𝙴: ${fileName}\n\n 𝗞𝗬𝗟𝗘 𝗔𝗨𝗧𝗢𝗕𝗢𝗧𝘃2`, attachment: fs.createReadStream(destPath) }, event.threadID);
 
 																				console.log(`Deleting file "${fileName}"...`);
 																				await fs.promises.unlink(destPath);
@@ -758,7 +758,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 
 													file.on('finish', () => {
 														file.close(() => {
-															api.sendMessage({ body: `𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇 𝖸𝗈𝗎𝖳𝗎𝖻𝖾 \n\n𝘼𝙆𝘼𝙄 𝘽𝙊𝙏 ⚪🟢`, attachment: fs.createReadStream(filePath) }, event.threadID, () => fs.unlinkSync(filePath));
+															api.sendMessage({ body: `𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇 𝖸𝗈𝗎𝖳𝗎𝖻𝖾 \n\n𝗔𝗨𝗧𝗢𝗕𝗢𝗧 🟢`, attachment: fs.createReadStream(filePath) }, event.threadID, () => fs.unlinkSync(filePath));
 														});
 													});
 												})
@@ -780,7 +780,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 																	const result = await getFBInfo(url);
 																	let videoData = await axios.get(encodeURI(result.sd), { responseType: 'arraybuffer' });
 																	fs.writeFileSync(fbvid, Buffer.from(videoData.data, "utf-8"));
-																	return api.sendMessage({ body: "𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇 𝖥𝖺𝖼𝖾𝖻𝗈𝗈𝗄 𝖵𝗂𝖽𝖾𝗈\n\n シƬHƐᗩ© 🟢⚪", attachment: fs.createReadStream(fbvid) }, event.threadID, () => fs.unlinkSync(fbvid));
+																	return api.sendMessage({ body: "𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇 𝖥𝖺𝖼𝖾𝖻𝗈𝗈𝗄 𝖵𝗂𝖽𝖾𝗈\n\n 𝗔𝗨𝗧𝗢𝗕𝗢𝗧𝗩𝟮", attachment: fs.createReadStream(fbvid) }, event.threadID, () => fs.unlinkSync(fbvid));
 																}
 																catch (e) {
 																	return console.log(e);
