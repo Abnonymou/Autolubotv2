@@ -10,7 +10,7 @@ const axios = require('axios');
 module.exports.config = {
   name: "ai",
   version: 1.0,
-  credits: "aesther",//Api OtinXsandip
+  credits: "kylepogi",//Api OtinXsandip
   description: "AI",
   hasPrefix: false,
   usages: "{pn} [prompt]",
@@ -22,7 +22,7 @@ module.exports.run = async function ({ api, event, args }) {
   try {
     const prompt = args.join(" ");
     if (!prompt) {
-      await api.sendMessage("シƬHƐᗩ©☁️ღゝ◡╹)ノ[📑]:\n\n /)___/)    ♡\n꒰ ˶• ༝ - ˶꒱ \n./づ~[🛄] ", event.threadID);
+      await api.sendMessage("𝙆𝙔𝙇𝙀'𝙎 𝘽𝙊𝙏 [📑]:\n\nyess how can I help you today?", event.threadID);
       return;
     }
     const response = await axios.get(`https://sandipbaruwal.onrender.com/gpt?prompt=${encodeURIComponent(prompt)}`);
@@ -37,7 +37,7 @@ module.exports.run = async function ({ api, event, args }) {
       }
     }
 
-    await api.sendMessage(`シƬHƐᗩ©☁️ღゝ◡╹)ノ[📑]:\n\n${formattedAnswer} ☁️`, event.threadID);
+    await api.sendMessage(`𝘼𝙐𝙏𝙊𝘽𝙊𝙏 𝙍𝙀𝙎𝙋𝙊𝙉𝙎𝙀 — [📑]:\n━━━━━━━━━━━━━━━━\n𝘼𝙉𝙎𝙒𝙀𝙍: ${formattedAnswer}\n\n━━━━━━━━━━━━━━━━`, event.threadID);
   } catch (error) {
     console.error("Error:", error.message);
   }
